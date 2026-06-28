@@ -1,0 +1,16 @@
+# Minecraft / local runtime files
+*.log
+*.tmp
+crash-reports/
+logs/
+
+# Build outputs
+dist/
+*.zip
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+desktop.ini
