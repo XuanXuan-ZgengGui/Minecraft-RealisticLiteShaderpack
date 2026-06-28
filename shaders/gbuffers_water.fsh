@@ -16,11 +16,11 @@ varying float vViewDistance;
 
 void main() {
     vec4 albedo = texture2D(texture, vTexCoord) * vColor;
-    vec3 light = max(texture2D(lightmap, vLightmapCoord).rgb, vec3(0.20));
+    vec3 light = max(texture2D(lightmap, vLightmapCoord).rgb, vec3(0.16));
     vec3 lightDir = normalize(vec3(0.35, 0.82, 0.44));
     vec3 water = rlsWaterColor(albedo.rgb * light, normalize(vViewDirection), lightDir, vWorldPosition.xz, frameTimeCounter);
     water = rlsAtmosphere(water, vViewDistance, fogColor);
 
-    float alpha = max(albedo.a, 0.58);
+    float alpha = max(albedo.a, 0.50);
     gl_FragData[0] = vec4(rlsColorGrade(water), alpha);
 }

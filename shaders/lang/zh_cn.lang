@@ -1,7 +1,7 @@
 option.RLS_REALISM=写实强度
 option.RLS_REALISM.comment=增强写实色彩、柔和对比与地表暖色，数值越高越接近电影感画面。
 option.RLS_EXPOSURE=曝光
-option.RLS_EXPOSURE.comment=控制整体亮度，低配电脑无需关闭此项。
+option.RLS_EXPOSURE.comment=控制整体亮度；如果画面刺眼或太阳过曝，请降低此项。
 option.RLS_SATURATION=饱和度
 option.RLS_SATURATION.comment=控制画面色彩浓度，默认值偏自然写实。
 option.RLS_FOG_STRENGTH=空气透视

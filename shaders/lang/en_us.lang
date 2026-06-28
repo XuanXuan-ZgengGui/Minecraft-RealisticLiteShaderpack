@@ -1,7 +1,7 @@
 option.RLS_REALISM=Realism
 option.RLS_REALISM.comment=Controls realistic color grading, soft contrast, and warm terrain response.
 option.RLS_EXPOSURE=Exposure
-option.RLS_EXPOSURE.comment=Controls overall brightness.
+option.RLS_EXPOSURE.comment=Controls overall brightness; lower it if the image or sun is overexposed.
 option.RLS_SATURATION=Saturation
 option.RLS_SATURATION.comment=Controls color intensity with a natural realistic default.
 option.RLS_FOG_STRENGTH=Atmospheric Fog

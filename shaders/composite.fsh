@@ -20,10 +20,10 @@ void main() {
 
     float edgeDistance = length(vTexCoord - vec2(0.5));
     float vignette = smoothstep(0.88, 0.26, edgeDistance);
-    color *= mix(0.94, 1.02, vignette);
+    color *= mix(0.96, 1.00, vignette);
 
     float skyBlend = smoothstep(0.996, 1.0, depth);
-    color = mix(color, color * vec3(0.94, 0.98, 1.04), skyBlend * 0.35);
+    color = mix(color, min(color, vec3(0.92)), skyBlend * 0.18);
     color += (rlsDither(vTexCoord) - 0.5) / 255.0;
 
     gl_FragData[0] = vec4(clamp(color, 0.0, 1.0), 1.0);
