@@ -1,0 +1,13 @@
+option.RLS_REALISM=Realism
+option.RLS_REALISM.comment=Controls realistic color grading, soft contrast, and warm terrain response.
+option.RLS_EXPOSURE=Exposure
+option.RLS_EXPOSURE.comment=Controls overall brightness.
+option.RLS_SATURATION=Saturation
+option.RLS_SATURATION.comment=Controls color intensity with a natural realistic default.
+option.RLS_FOG_STRENGTH=Atmospheric Fog
+option.RLS_FOG_STRENGTH.comment=Controls distance fog for realistic aerial perspective.
+option.RLS_WATER_DETAIL=Water Detail
+option.RLS_WATER_DETAIL.comment=Controls low-cost water wave and highlight intensity.
+profile.LOW=Low
+profile.BALANCED=Balanced
+profile.QUALITY=Quality

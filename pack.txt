@@ -1,0 +1,4 @@
+Realistic Lite Shaderpack
+
+低配友好的写实风格 Minecraft 光影包。
+将本文件夹放入 Minecraft 的 shaderpacks 目录后，在游戏内选择本光影即可使用。
